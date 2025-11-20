@@ -1,0 +1,11 @@
+{
+  "AiConfig": {
+    "Ali": {
+      "key": "sk-68e8956297be4d6b903a3394f89032e3",
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v",
+      "Models": [ "qwen3-max" ],
+      "Embeddings": [ "text-embedding-v4" ]
+    }
+  },
+  "Qdrant": "115.190.187.71"
+}

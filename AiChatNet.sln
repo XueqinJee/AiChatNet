@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{A67E9746-13DB-47AF-AF32-260AE68BF37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QdrantConsoleTest", "QdrantConsoleTest\QdrantConsoleTest.csproj", "{105375F4-E6A0-42CE-9FBC-844208B1EBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorStoreRAG", "VectorStoreRAG\VectorStoreRAG.csproj", "{08AC4221-D374-44A4-AD8A-A6A423797272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67E9746-13DB-47AF-AF32-260AE68BF37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67E9746-13DB-47AF-AF32-260AE68BF37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67E9746-13DB-47AF-AF32-260AE68BF37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67E9746-13DB-47AF-AF32-260AE68BF37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105375F4-E6A0-42CE-9FBC-844208B1EBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105375F4-E6A0-42CE-9FBC-844208B1EBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105375F4-E6A0-42CE-9FBC-844208B1EBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105375F4-E6A0-42CE-9FBC-844208B1EBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AC4221-D374-44A4-AD8A-A6A423797272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AC4221-D374-44A4-AD8A-A6A423797272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AC4221-D374-44A4-AD8A-A6A423797272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AC4221-D374-44A4-AD8A-A6A423797272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08AC4221-D374-44A4-AD8A-A6A423797272} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FE99E69-FDBA-423A-AB18-08E6CF519ED8}
+	EndGlobalSection
+EndGlobal
