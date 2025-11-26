@@ -16,6 +16,7 @@ builder.Configuration.AddUserSecrets<Program>();
 builder.Services.Configure<RagConfig>(builder.Configuration.GetSection(RagConfig.ConfigSectionName));
 var appConfig = new ApplicationConfig(builder.Configuration);
 
+
 var kernelBuilder = builder.Services.AddKernel();
 
 // 聊天完成服务
